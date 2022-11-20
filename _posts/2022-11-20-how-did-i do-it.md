@@ -1,6 +1,6 @@
 ---
 title: How did I do it?
-date: 2022-11-19 18:53:01 +05:30
+date: 2022-11-20 18:53:01 +05:30
 categories: [Technology]
 tags: [intro]     # TAG names should always be lowercase
 ---
