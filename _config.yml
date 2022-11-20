@@ -21,7 +21,7 @@ timezone: Asia/Kolkata
 
 title: Shaan Chopra                          # the main title
 
-tagline: Log Something Crazy, But Interesting   # it will display as the sub-title
+tagline: Log Something Crazy, But Interesting.   # it will display as the sub-title
 
 description: >-                        # used by seo meta and the atom feed
   Just another document site by guy named Shaan
