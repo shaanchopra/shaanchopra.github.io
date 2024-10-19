@@ -1,0 +1,520 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="robots"
+      content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
+    />
+    <title>Static Website Generator Hugo - ShaanChopra.Net</title>
+    <meta
+      name="description"
+      content="HUGO is a static site generator based on GO language, that is secure, fast and simple for creating your website. Here is how to get started with HUGO."
+    />
+    <!-- Open Graph / Facebook / Twitter -->
+    <meta
+      property="og:title"
+      content="Static Website Generator Hugo - ShaanChopra.Net"
+    />
+    <meta
+      property="og:description"
+      content="HUGO is a static site generator based on GO language, that is secure, fast and simple for creating your website. Here is how to get started with HUGO."
+    />
+    <meta
+      property="og:url"
+      content="https://shaanchopra.net/blogging/hugo-static-site-generator.html"
+    />
+    <meta property="og:type" content="article" />
+    <meta
+      property="article:modified_time"
+      content="2022-12-01T23:56:00+00:00"
+    />
+    <meta
+      property="og:image"
+      content="https://shaanchopra.net/assets/images/social-share-card.png"
+    />
+    <meta name="twitter:card" content="summary_large_image" />
+    <link rel="stylesheet" href="../css/styles.css" />
+    <link rel="icon" href="../assets/images/favicon.ico" />
+    <!-- Google tag (gtag.js) -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-52CDHHXFYW"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "G-52CDHHXFYW");
+    </script>
+  </head>
+  <body>
+    <div class="page">
+      <a class="blog-heading" href="https://shaanchopra.net">Shaan Chopra</a>
+      <h3 class="blog-tagline">Log something crazy, but intresting.</h3>
+      <ul class="site-nav justify-content-end">
+        <li><a class="nav-link" href="https://shaanchopra.net">Home</a></li>
+        <li>
+          <a class="nav-link" href="https://shaanchopra.net/blog.html">Blog</a>
+        </li>
+        <li>
+          <a class="nav-link" href="https://shaanchopra.net/privacy-policy.html"
+            >Privacy</a
+          >
+        </li>
+        <li>
+          <a class="nav-link" href="https://shaanchopra.net/contact.html"
+            >Contact</a
+          >
+        </li>
+      </ul>
+      <hr />
+      <img
+        class="post-images"
+        src="../images/hugo-static-site-generator.webp"
+        alt="hugo-static-site-generator"
+      />
+      <h1>Static Website Generator Hugo</h1>
+      <p>
+        <b>Date: <span class="post-meta">Dec 01, 2022</span></b>
+      </p>
+      <p>
+        Hugo is a static site generator which is on the rise and is used by a
+        lot of high-traffic websites. The best part is it is open-source and
+        requires minimal resources to put your site online. With Hugo, you can
+        generate a blog or one page about me or a company website or a portfolio
+        site anything you want. Sites generated are lite, fast, and responsive
+        and give you a lot of control over the website.
+      </p>
+      <h2>What is Hugo?</h2>
+      <p>
+        A static site builder that uses
+        <b>HTML, CSS, JavaScript and Markdown</b> to create beautiful web pages.
+        Hugo is based on the language GO and the first release was in 2013. On
+        the
+        <a href="https://gohugo.io/" target="_blank" rel="noreferrer noopener"
+          >official site</a
+        >, it claims that it is the world's fastest framework for building
+        websites.
+      </p>
+      <div style="background-color: #26272c">
+        <p style="color: white; text-align: center">
+          Hugo currently has a market share of .02% and does very well with
+          high-traffic.
+        </p>
+        <div style="text-align: center">
+          <img
+            style="width: 95%; max-width: 600px; height: auto"
+            src="../images/market-share-usage-hugo.webp"
+            alt="hugo-market-share-usage"
+          />
+        </div>
+        <p style="color: white">
+          Source:
+          <a
+            href="https://w3techs.com/technologies/details/cm-hugo"
+            target="_blank"
+            rel="noreferrer noopener"
+            >W3techs</a
+          >
+        </p>
+      </div>
+
+      <h2>How is it different?</h2>
+      <p>
+        Hugo generates static pages, there is no database or PHP attached to
+        them which makes it super <b>lite and fast</b>. When you upload the
+        files to the web server their size is usually in single digit MB.
+        Whereas the most popular CMS WordPress is about 20 MB.
+      </p>
+      <p>
+        The base file that generates the pages is always with you and is not
+        uploaded which makes it ways safer. In addition to this when there is no
+        database there is no worry of a data leak.
+      </p>
+      <p>
+        Flexibility in customisation is unmatched, provided you should have the
+        basics of coding.
+      </p>
+      <p>
+        With Hugo forget about updating applications, plugins, databases and
+        backend services on regular bases. It is one of the easiest way to
+        <a
+          href="../technology/why-is-the-self-hosted-and-self-developed-site-so-important.html"
+          target="_blank"
+          rel="noreferrer noopener"
+        >
+          develop</a
+        >
+        and manage content of a website.
+      </p>
+      <p></p>
+      <h2>Advantages of HUGO</h2>
+
+      <h3>Speed</h3>
+      <p>
+        Static pages are lite and serve fast online. I personally have used Hugo
+        for a personal project and the time for the page load is really less.
+        This primarily happens because servers don't have to work overtime in
+        finding the data requested at different locations. All the data to
+        render the request is at the page level.
+      </p>
+
+      <h3>Security</h3>
+      <p>
+        When there is no database then there is no motivation for hackers and
+        bad elements to hack. The base file is not required to be uploaded on
+        the server which means the base will remain with you safely. Modern cms
+        require passwords to log in at the backend to create content, but on
+        Hugo, you don't require passwords. You generate and modify pages locally
+        and upload just the serveable file.
+      </p>
+      <h3>Simplicity</h3>
+      <p>
+        Hugo site builder is simple, but it does require a bit of understanding,
+        and once you get the hang of it, works really well. Anyone can start
+        with a new Hugo site with just 3 words “<b>HUGO new site *_ _ _*</b>” on
+        the command line. To do this you have to set up the Hugo environment
+        which is also very simple.
+      </p>
+      <h2>How to start Hugo?</h2>
+      <p>
+        There are overwhelming ways of installing Hugo but I am going to tell
+        you the easiest ways. The prerequisite software is VS Code or Atom where
+        we are going to create the pages.
+      </p>
+      <p>
+        <b>Step #1</b>
+      </p>
+      <p>
+        Download the
+        <a
+          href="https://github.com/gohugoio/hugo/releases"
+          target="_blank"
+          rel="noreferrer noopener"
+        >
+          prebuilt binary</a
+        >
+        from GitHub. Unzip the file and copy the folder where you want to save
+        your project. I created a folder named bin and placed all the files
+        there.
+      </p>
+      <div style="text-align: center">
+        <img
+          style="width: 95%; max-width: 800px; height: auto"
+          src="../images/folder-structure-for-hugo-binary.webp"
+          alt="folder-structure-for-hugo-binary"
+        />
+      </div>
+      <p>
+        <b>Step #2</b>
+      </p>
+      <p>
+        Creating the path to the binary. For this click the windows button and
+        write “edit the system environment variable”, go to the Advance tab and
+        click the environment variables.
+      </p>
+      <div style="text-align: center">
+        <img
+          style="width: 95%; max-width: 800px; height: auto"
+          src="../images/setting-path-for-binary-part-1.webp"
+          alt="setting-path-for-binary-part-1"
+        />
+      </div>
+
+      <p>
+        Select Path and click edit and add a new path where you have saved the
+        binary.
+      </p>
+      <div style="text-align: center">
+        <img
+          style="width: 95%; max-width: 800px; height: auto"
+          src="../images/setting-path-for-binary-part-2.webp"
+          alt="setting-path-for-binary-part-2"
+        />
+      </div>
+
+      <p>
+        <b>Step #3</b>
+      </p>
+      <p>
+        On the command line type “<b>hugo version</b>”, for accessing the
+        command line just press (<b>Windows key+R</b>) and type CMD. This will
+        give out which version you have on your system. With this your local
+        machine, laptop or desktop is ready to create the first website.
+      </p>
+      <p>
+        <b>Step #4</b>
+      </p>
+      <p>
+        From the command line navigate to the place you want to place the site
+        file. If you don't know how to use the command line. Then just open VS
+        Code or Atom and open the folder where you placed the binary. Then from
+        the top menu select Terminal and New Terminal.
+      </p>
+      <div style="text-align: center">
+        <img
+          style="width: 95%; max-width: 800px; height: auto"
+          src="../images/vs-code-terminal.webp"
+          alt="vs-code-terminal"
+        />
+      </div>
+
+      <p>
+        <b>Step #5</b>
+      </p>
+      <p>
+        Type the command “<b>hugo new site SiteName</b>” (SiteName can be
+        <i>whatever</i> you want) This will create a folder required for
+        creating a static site. By default, there will be no content to view so
+        you have to create content and that is easy.
+      </p>
+
+      <div style="text-align: center">
+        <img
+          style="width: 95%; max-width: 800px; height: auto"
+          src="../images/cmd-start-new-site-in-hugo.webp"
+          alt="cmd-for-starting-new-site-in-hugo"
+        />
+      </div>
+
+      <p>
+        <b>Step #6</b>
+      </p>
+      <p>
+        To create content on the command line type cd SiteName this will take
+        you inside your site folder. Then type “<b
+          >hugo new posts/first-post.md</b
+        >” or create a new file with <b>.markdown or .md extension</b>.
+      </p>
+      <p>
+        <b>Step #7</b>
+      </p>
+      <p>
+        Add a theme to your site. Visit the
+        <a
+          href="https://themes.gohugo.io/"
+          target="_blank"
+          rel="noreferrer noopener"
+        >
+          HUGO theme</a
+        >
+        and select one, I am going with the default theme 'Ananke' by default
+        the download button will lead you to the GitHub site where you would
+        download all the files in a zip. Unzip all the files under the SiteName
+        Theme section. (make sure the folder name is correct). Open the
+        config.toml file and add “<b>theme = 'ananke'</b>”.
+      </p>
+      <p>
+        <b>Step #7</b>
+      </p>
+      <p>
+        To server or view the site or page type “<b>hugo server</b>”. This will
+        host your site locally on (http://localhost:1313)
+      </p>
+      <p>
+        <b>Step #8</b>
+      </p>
+      <p>
+        Once you are done editing and creating your site to server the site on
+        the server you have to type on the command line “hugo” this will build
+        the static site file inside the public folder. Take these files and host
+        the site.
+      </p>
+      <p>
+        <b>Step #9</b>
+      </p>
+      <p>
+        Whenever you want to edit the site, I usually delete all the files and
+        folders inside the public folder and run the “hugo” command and upload
+        the newly generated files.
+      </p>
+
+      <h3>Video for help</h3>
+      <p>
+        I found this video most helpful on the topic of getting started with
+        HUGO
+      </p>
+      <div style="text-align: center">
+        <iframe
+          width="80%"
+          height="350"
+          max-height="400"
+          max-width="800"
+          src="https://www.youtube.com/embed/G7umPCU-8xc"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        ></iframe>
+      </div>
+
+      <h2>Themes for HUGO</h2>
+      <p>
+        There are plenty of themes on the official site to select from. Do read
+        the theme file while choosing, sometimes there is a different
+        configuration for the config.toml file. All the themes are open-source
+        and available on GitHub for download.
+      </p>
+      <h2>Where to Serve?</h2>
+      <p>
+        This is a static site generated from HUGO, you can host the file with
+        any hosting provider. It can be shared, dedicated or even VPS. If you
+        don't have a hosting solution then you can host the files on GitHub
+        pages for free.
+      </p>
+      <h2>Closing Thoughts</h2>
+      <p>
+        I personally like what the HUGO website generator is able to do. The
+        only drawback I see and what I feel is it's a bit technical. When we
+        have to write a blog post in form of code/markdown. I need to know all
+        those ways of editing. WordPress on the other hand makes it more
+        user-friendly.
+      </p>
+      <p>
+        HUGO has the speed and is way more secure than WP, here is where the
+        trade-off comes in place if you have 5 page static site then Hugo is the
+        answer if you are looking for user-friendliness then turn towards WP. I
+        would lastly say do try your hand at HUGO you might just like what it
+        has to offer.
+      </p>
+
+      <!---------------------------------- Post Ends Here -------------------------------->
+      <div class="share-block">
+        <table class="share-block-position">
+          <tr>
+            <td>
+              <p>Share this:</p>
+            </td>
+            <td>
+              <a class="twitter-share" target="blank" rel="noopener noreferrer"
+                ><img
+                  class="social-share"
+                  src="../assets/images/share-on-twitter.webp"
+                  alt="share-on-twitter"
+              /></a>
+              <a class="facebook-share" target="blank" rel="noopener noreferrer"
+                ><img
+                  class="social-share"
+                  src="../assets/images/share-on-facebook.webp"
+                  alt="share-on-facebook"
+              /></a>
+              <a
+                class="linkedin-share"
+                target="_blank"
+                rel="noopener noreferrer"
+                ><img
+                  class="social-share"
+                  src="../assets/images/share-on-linkedin.webp"
+                  alt="share-on-linkedin"
+                />
+              </a>
+              <a class="reddit-share" target="blank" rel="noopener noreferrer"
+                ><img
+                  class="social-share"
+                  src="../assets/images/share-on-reddit.webp"
+                  alt="share-on-reddit"
+              /></a>
+              <a
+                class="pinterest-share"
+                target="blank"
+                rel="noopener noreferrer"
+                ><img
+                  class="social-share"
+                  src="../assets/images/share-on-pinterest.webp"
+                  alt="share-on-pinterest"
+              /></a>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <!---------------------------------- Social share End Here -------------------------------->
+      <br />
+      <hr />
+      <ul class="site-nav justify-content-center">
+        <li><a class="nav-link" href="https://shaanchopra.net">Home</a></li>
+        <li>
+          <a class="nav-link" href="https://shaanchopra.net/blog.html">Blog</a>
+        </li>
+
+        <li>
+          <a class="nav-link" href="https://shaanchopra.net/privacy-policy.html"
+            >Privacy</a
+          >
+        </li>
+        <li>
+          <a class="nav-link" href="https://shaanchopra.net/contact.html"
+            >Contact</a
+          >
+        </li>
+      </ul>
+      <div class="social-footer">
+        <table>
+          <tr>
+            <td>
+              <a
+                href="https://twitter.com/shaanchopra"
+                target="_blank"
+                rel="nofollow noreferrer noopener"
+                ><img
+                  class="social-links"
+                  src="../assets/images/twitter.webp"
+                  alt="Twitter"
+              /></a>
+            </td>
+            <td>
+              <a
+                href="https://www.linkedin.com/in/shaanchopra"
+                target="_blank"
+                rel="nofollow noreferrer noopener"
+                ><img
+                  class="social-links"
+                  src="../assets/images/linkedin.webp"
+                  alt="LinkedIn"
+              /></a>
+            </td>
+            <td>
+              <a
+                href="https://www.instagram.com/shaanchopra/"
+                target="_blank"
+                rel="nofollow noreferrer noopener"
+                ><img
+                  class="social-links"
+                  src="../assets/images/instagram.webp"
+                  alt="Instagram"
+              /></a>
+            </td>
+            <td>
+              <a
+                href="https://www.facebook.com/shaaninderchopra/"
+                target="_blank"
+                rel="nofollow noreferrer noopener"
+                ><img
+                  class="social-links"
+                  src="../assets/images/facebook.webp"
+                  alt="Facebook"
+              /></a>
+            </td>
+          </tr>
+        </table>
+      </div>
+    </div>
+    <script>
+      const link = encodeURI(window.location.href);
+      const twittershare = document.querySelector(".twitter-share");
+      twittershare.href = `https://twitter.com/intent/tweet?url=${link}`;
+      const facebookshare = document.querySelector(".facebook-share");
+      facebookshare.href = `https://www.facebook.com/share.php?u=${link}`;
+      const linkedinshare = document.querySelector(".linkedin-share");
+      linkedinshare.href = `https://www.linkedin.com/shareArticle?mini=true&url=${link}`;
+      const redditshare = document.querySelector(".reddit-share");
+      redditshare.href = `https://reddit.com/submit?url=${link}`;
+      const pinterestshare = document.querySelector(".pinterest-share");
+      pinterestshare.href = `https://pinterest.com/pin/create/button/?url=${link}`;
+    </script>
+  </body>
+</html>

@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="robots"
+      content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
+    />
+    <title>Add Social Sharing Buttons To HTML Site - ShaanChopra.Net</title>
+    <meta
+      name="description"
+      content="Social sharing buttons are useful for you and the reader for sharing content to their social feeds. Social sharing can get you views and engagement and Here is how to add them in HTML."
+    />
+    <!-- Open Graph / Facebook / Twitter -->
+    <meta
+      property="og:title"
+      content="Add Social Sharing Buttons To HTML Site - ShaanChopra.Net"
+    />
+    <meta
+      property="og:description"
+      content="Social sharing buttons are useful for you and the reader for sharing content to their social feeds. Social sharing can get you views and engagement and Here is how to add them in HTML."
+    />
+    <meta
+      property="og:url"
+      content="https://shaanchopra.net/technology/add-social-sharing-buttons-to-html-site.html"
+    />
+    <meta property="og:type" content="article" />
+    <meta
+      property="article:modified_time"
+      content="2022-12-23T21:00:00+00:00"
+    />
+    <meta
+      property="og:image"
+      content="https://shaanchopra.net/assets/images/social-share-card.png"
+    />
+    <meta name="twitter:card" content="summary_large_image" />
+    <link rel="stylesheet" href="../css/styles.css" />
+    <link rel="icon" href="../assets/images/favicon.ico" />
+    <!-- Google tag (gtag.js) -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-52CDHHXFYW"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "G-52CDHHXFYW");
+    </script>
+  </head>
+  <body>
+    <div class="page">
+      <a class="blog-heading" href="https://shaanchopra.net">Shaan Chopra</a>
+      <h3 class="blog-tagline">Log something crazy, but intresting.</h3>
+
+      <ul class="site-nav justify-content-end">
+        <li><a class="nav-link" href="https://shaanchopra.net">Home</a></li>
+        <li>
+          <a class="nav-link" href="https://shaanchopra.net/blog.html">Blog</a>
+        </li>
+        <li>
+          <a class="nav-link" href="https://shaanchopra.net/privacy-policy.html"
+            >Privacy</a
+          >
+        </li>
+        <li>
+          <a class="nav-link" href="https://shaanchopra.net/contact.html"
+            >Contact</a
+          >
+        </li>
+      </ul>
+
+      <hr />
+      <img
+        class="post-images"
+        src="../images/social-sharing-buttons.webp"
+        alt="social-sharing-buttons"
+      />
+      <h1>Add Social Sharing Buttons To HTML Site</h1>
+      <p>
+        <b>Date: <span class="post-meta">Dec 23, 2022</span></b>
+      </p>
+      <p>
+        Social sharing buttons on your site lets your reader share your content
+        with their friends. It is good to have them, you don't want your user to
+        copy and paste URLs from the browser. You want to make sharing possible
+        with a simple button.
+      </p>
+      <p>
+        I have an HTML site and I have these social sharing buttons with
+        <b>no plugins</b>, <b>no third-party code</b> or <b>CDN images</b>.
+        Moreover, they are <b>automated</b>
+        I don't have to edit the link every time I write a new post.
+      </p>
+      <p>
+        There are plenty of ways to get these HTML share buttons but I like it
+        when I don't have to be dependent on others.
+      </p>
+      <p>
+        For a small site will a limited number of views and pages it's really
+        easy to edit the sharing codes but the tricky part is to automate them
+        so that you don't have to edit them every time.
+      </p>
+      <p>Let's look at the two best options you have.</p>
+      <h2>1# Social Sharing Buttons (DIY)</h2>
+
+      <h3>Step 1</h3>
+      <p>
+        Get good-quality images or icons for social sites. I got my social media
+        icon from
+        <a
+          href="https://www.flaticon.com/"
+          target="_blank"
+          rel="noreferrer noopener"
+          >FlatIcon</a
+        >
+        they are free. The size I chose is 32px but if you want the bigger one
+        that is your preference.
+      </p>
+      <h3>Step 2 (optional)</h3>
+      <p>
+        I converted the PNG images to
+        <a
+          href="https://shaanchopra.net/technology/convert-image-to-webp-and-vice-versa.html"
+          target="_blank"
+          rel="noreferrer noopener"
+          >new generation WebP format</a
+        >, you can do it if you want. With this, they are lighter and take less
+        space and bandwidth.
+      </p>
+      <h3>Step 3</h3>
+      <p>
+        Upload them to a directory on your server, mine are in a directory
+        ../assets/images. You can place them anywhere just remember the path.
+      </p>
+      <h3>Step 4</h3>
+      <p>
+        Add the below code in your <b>body tag</b> &ltbody>...&lt/body> where
+        you want the social sharing buttons to display.
+      </p>
+      <div class="code">
+        <pre><code>
+&lt;div class="share-block"&gt;
+    &lt;table class="share-block-position"&gt;
+        &lt;tr&gt;
+            &lt;td&gt;
+                &lt;p&gt;Share this:&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+                
+                &lt;a class="twitter-share" target="blank" rel="noopener noreferrer"&gt;
+                &lt;img
+                  class="social-share"
+                  src="../assets/images/share-on-twitter.webp"
+                  alt="share-on-twitter" /&gt;&lt;/a&gt;
+                
+                &lt;a class="facebook-share" target="blank" rel="noopener noreferrer"&gt;
+                &lt;img
+                  class="social-share"
+                  src="../assets/images/share-on-facebook.webp"
+                  alt="share-on-facebook" /&gt;&lt;/a&gt;
+                
+                &lt;a class="linkedin-share" target="_blank" rel="noopener noreferrer"&gt;
+                &lt;img
+                  class="social-share"
+                  src="../assets/images/share-on-linkedin.webp"
+                  alt="share-on-linkedin" /&gt;&lt;/a&gt;
+                
+                &lt;a class="reddit-share" target="blank" rel="noopener noreferrer"&gt;
+                &lt;img
+                  class="social-share"
+                  src="../assets/images/share-on-reddit.webp"
+                  alt="share-on-reddit" /&gt;&lt;/a&gt;
+              
+                &lt;a class="pinterest-share" target="blank" rel="noopener noreferrer"&gt;
+                &lt;img
+                  class="social-share"
+                  src="../assets/images/share-on-pinterest.webp"
+                  alt="share-on-pinterest" /&gt;&lt;/a&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+    &lt;/table&gt;
+&lt;/div&gt;
+</code></pre>
+      </div>
+      <h3>Step 5</h3>
+      <p>
+        Just before where the <b>body tag ends</b> &lt/body> place the below
+        script
+      </p>
+
+      <div class="code">
+        <pre><code>
+&lt;script>
+ const link = encodeURI(window.location.href);
+  	
+ const twittershare = document.querySelector(".twitter-share");
+ twittershare.href = `https://twitter.com/intent/tweet?url=${link}`;
+  	
+ const facebookshare = document.querySelector(".facebook-share");
+ facebookshare.href = `https://www.facebook.com/share.php?u=${link}`;
+  	
+ const linkedinshare = document.querySelector(".linkedin-share");
+ linkedinshare.href = `https://www.linkedin.com/shareArticle?mini=true&url=${link}`;
+  	
+ const redditshare = document.querySelector(".reddit-share");
+ redditshare.href = `https://reddit.com/submit?url=${link}`;
+  	
+ const pinterestshare = document.querySelector(".pinterest-share");
+ pinterestshare.href = `https://pinterest.com/pin/create/button/?url=${link}`;
+&lt;/script></code></pre>
+      </div>
+
+      <h3>Step 6</h3>
+      <p>
+        A bit of <b>CSS</b> will give the buttons a great look add the below
+        style and you are welcome to edit it if you like.
+      </p>
+      <div class="code">
+        <pre><code>
+.share-block {
+  margin-top: .01rem;
+  text-align: center;
+}
+.share-block p {
+  font-size: 1.25rem;
+  padding-bottom: 5%;
+  margin-bottom: .5%;
+  margin-top: .5%;
+  font-weight: 600;
+}
+.share-block a {
+  display: inline-block;
+  transition: all 0.3s;
+  margin: 0 0.25rem;
+}
+.share-block a:hover {
+  transform: scale(1.1);
+}
+.share-block-position {
+margin-left: auto;
+}
+.social-share {
+  width: 32px;
+  height: 32px;
+}
+</code></pre>
+      </div>
+
+      <h2>2# Using a Third-Party Code</h2>
+      <p>
+        There are sites such as
+        <a
+          href="https://sharethis.com/"
+          target="_blank"
+          rel="noreferrer noopener"
+          >ShareThis</a
+        >,
+        <a
+          href="https://www.addthis.com/"
+          target="_blank"
+          rel="noreferrer noopener"
+          >AddThis</a
+        >
+        and
+        <a
+          href="https://elfsight.com/"
+          target="_blank"
+          rel="noreferrer noopener"
+          >Elfsight</a
+        >
+        which do this for you. You can easily edit the looks and embed the code
+        in the header and you have these social sharing buttons on your site
+        where ever you want.
+      </p>
+      <p>
+        The problem with this is that if they shut it down your sharing
+        capability also goes down.
+      </p>
+      <p>
+        Let's assume you have hundreds of blog posts and the service which was
+        free is now chargeable. What are you going to do, go back and code the
+        buttons on every single page? It's a great easy service but it's a trap
+        for the future.
+      </p>
+      <p>
+        So, start from day one and don't be dependent on any third-party code.
+      </p>
+      <p>
+        Elfsight on the other hand has plans the free plan is only for 200 views
+        and I find it absurd to pay for something like this.
+      </p>
+      <h2>Why Should You Add Social Sharing Buttons?</h2>
+      <p>
+        It's easier for the user to share your content on their social media
+        account it is also for you to share when required.
+      </p>
+      <p>
+        Social media has the ability to get more views and engagement on your
+        site.
+      </p>
+      <p>
+        If you visit any of the website which publishes content you will find
+        these social buttons a lot.
+      </p>
+      <p>
+        Now you can have them too on your HTML site without depending on any
+        third code or sites.
+      </p>
+      <h2>Who Should Add These Buttons?</h2>
+      <p>
+        Everyone should have social sharing buttons on their site. The above
+        code is for those who are running HTML sites and don't want to have
+        third-party code on their site.
+      </p>
+      <p>With more creativity in the CSS you can get more styles.</p>
+      <p>
+        The above code will be similar to the sharing buttons on this site. I
+        have not changed anything. Feel free to copy and edit as you need.
+      </p>
+      <h2>Conclusion</h2>
+      <p>
+        It is good to have social sharing ability on your site. Most of the
+        blogging platforms will have plugins to add this feature but when it
+        comes to HTML you have to code yourself. You can use third-party codes
+        for that, but it will be wise if you can do it on your own.
+      </p>
+      <p>
+        Social engagement on your content is always good for a website. A lot of
+        customization can be done by you on the buttons when you code your way.
+        I only have five buttons but you can add as many you want.
+      </p>
+
+      <!---------------------------------- Post Ends Here -------------------------------->
+      <div class="share-block">
+        <table class="share-block-position">
+          <tr>
+            <td>
+              <p>Share this:</p>
+            </td>
+            <td>
+              <a class="twitter-share" target="blank" rel="noopener noreferrer"
+                ><img
+                  class="social-share"
+                  src="../assets/images/share-on-twitter.webp"
+                  alt="share-on-twitter"
+              /></a>
+              <a class="facebook-share" target="blank" rel="noopener noreferrer"
+                ><img
+                  class="social-share"
+                  src="../assets/images/share-on-facebook.webp"
+                  alt="share-on-facebook"
+              /></a>
+              <a
+                class="linkedin-share"
+                target="_blank"
+                rel="noopener noreferrer"
+                ><img
+                  class="social-share"
+                  src="../assets/images/share-on-linkedin.webp"
+                  alt="share-on-linkedin"
+                />
+              </a>
+              <a class="reddit-share" target="blank" rel="noopener noreferrer"
+                ><img
+                  class="social-share"
+                  src="../assets/images/share-on-reddit.webp"
+                  alt="share-on-reddit"
+              /></a>
+              <a
+                class="pinterest-share"
+                target="blank"
+                rel="noopener noreferrer"
+                ><img
+                  class="social-share"
+                  src="../assets/images/share-on-pinterest.webp"
+                  alt="share-on-pinterest"
+              /></a>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <!---------------------------------- Social share End Here -------------------------------->
+      <br />
+      <hr />
+      <ul class="site-nav justify-content-center">
+        <li><a class="nav-link" href="https://shaanchopra.net">Home</a></li>
+        <li>
+          <a class="nav-link" href="https://shaanchopra.net/blog.html">Blog</a>
+        </li>
+
+        <li>
+          <a class="nav-link" href="https://shaanchopra.net/privacy-policy.html"
+            >Privacy</a
+          >
+        </li>
+        <li>
+          <a class="nav-link" href="https://shaanchopra.net/contact.html"
+            >Contact</a
+          >
+        </li>
+      </ul>
+      <div class="social-footer">
+        <table>
+          <tr>
+            <td>
+              <a
+                href="https://twitter.com/shaanchopra"
+                target="_blank"
+                rel="nofollow noreferrer noopener"
+                ><img
+                  class="social-links"
+                  src="../assets/images/twitter.webp"
+                  alt="Twitter"
+              /></a>
+            </td>
+            <td>
+              <a
+                href="https://www.linkedin.com/in/shaanchopra"
+                target="_blank"
+                rel="nofollow noreferrer noopener"
+                ><img
+                  class="social-links"
+                  src="../assets/images/linkedin.webp"
+                  alt="LinkedIn"
+              /></a>
+            </td>
+            <td>
+              <a
+                href="https://www.instagram.com/shaanchopra/"
+                target="_blank"
+                rel="nofollow noreferrer noopener"
+                ><img
+                  class="social-links"
+                  src="../assets/images/instagram.webp"
+                  alt="Instagram"
+              /></a>
+            </td>
+            <td>
+              <a
+                href="https://www.facebook.com/shaaninderchopra/"
+                target="_blank"
+                rel="nofollow noreferrer noopener"
+                ><img
+                  class="social-links"
+                  src="../assets/images/facebook.webp"
+                  alt="Facebook"
+              /></a>
+            </td>
+          </tr>
+        </table>
+      </div>
+    </div>
+    <script>
+      const link = encodeURI(window.location.href);
+      const twittershare = document.querySelector(".twitter-share");
+      twittershare.href = `https://twitter.com/intent/tweet?url=${link}`;
+      const facebookshare = document.querySelector(".facebook-share");
+      facebookshare.href = `https://www.facebook.com/share.php?u=${link}`;
+      const linkedinshare = document.querySelector(".linkedin-share");
+      linkedinshare.href = `https://www.linkedin.com/shareArticle?mini=true&url=${link}`;
+      const redditshare = document.querySelector(".reddit-share");
+      redditshare.href = `https://reddit.com/submit?url=${link}`;
+      const pinterestshare = document.querySelector(".pinterest-share");
+      pinterestshare.href = `https://pinterest.com/pin/create/button/?url=${link}`;
+    </script>
+  </body>
+</html>

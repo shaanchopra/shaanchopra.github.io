@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="robots"
+      content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
+    />
+    <title>
+      Moving to HTML and file arrangement planning - ShaanChopra.Net
+    </title>
+    <meta
+      name="description"
+      content="Moving to HTML based blog then have a file arrangement plan in place. Understand the hierarchy level of files and folders on the host."
+    />
+    <!-- Open Graph / Facebook / Twitter -->
+    <meta
+      property="og:title"
+      content="Moving to HTML and file arrangement planning - ShaanChopra.Net"
+    />
+    <meta
+      property="og:description"
+      content="Moving to HTML based blog then have a file arrangement plan in place. Understand the hierarchy level of files and folders on the host."
+    />
+    <meta
+      property="og:url"
+      content="https://shaanchopra.net/technology/moving-to-html-and-file-arrangement-planning.html"
+    />
+    <meta property="og:type" content="article" />
+    <meta
+      property="article:modified_time"
+      content="2022-11-22T14:40:00+00:00"
+    />
+    <meta
+      property="og:image"
+      content="https://shaanchopra.net/assets/images/social-share-card.png"
+    />
+    <meta name="twitter:card" content="summary_large_image" />
+    <link rel="stylesheet" href="../css/styles.css" />
+    <link rel="icon" href="../assets/images/favicon.ico" />
+    <!-- Google tag (gtag.js) -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-52CDHHXFYW"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "G-52CDHHXFYW");
+    </script>
+  </head>
+  <body>
+    <div class="page">
+      <a class="blog-heading" href="https://shaanchopra.net">Shaan Chopra</a>
+      <h3 class="blog-tagline">Log something crazy, but intresting.</h3>
+      <ul class="site-nav justify-content-end">
+        <li><a class="nav-link" href="https://shaanchopra.net">Home</a></li>
+        <li>
+          <a class="nav-link" href="https://shaanchopra.net/blog.html">Blog</a>
+        </li>
+        <li>
+          <a class="nav-link" href="https://shaanchopra.net/privacy-policy.html"
+            >Privacy</a
+          >
+        </li>
+        <li>
+          <a class="nav-link" href="https://shaanchopra.net/contact.html"
+            >Contact</a
+          >
+        </li>
+      </ul>
+      <hr />
+      <img
+        class="post-images"
+        src="../images/moving-to-html-and-file-arrangement-planning.webp"
+        alt="html-file-arrangement"
+      />
+      <h1>Moving to HTML and file arrangement planning</h1>
+      <p>
+        <b>Date: <span class="post-meta">Nov 08, 2022</span></b>
+      </p>
+      <p>
+        Having a five or six-page static site is one thing and having a personal
+        blog on HTML is totally different. My deepest respect for those who are
+        still running their blogs on HTML. I moved this site thinking it would
+        be easy and would be great to have one site with old school look and
+        feel but when I am doing all the backend work I am now finding it is not
+        easy. Even copying one code to another file doesn't work as it does.
+        Moving a few files to the VM is very easy I use
+        <a
+          href="https://filezilla-project.org"
+          target="_blank"
+          rel="noreferrer noopener"
+          >FileZilla</a
+        >
+        to do that but the difficult part is the arrangement of files and
+        folders. <br /><br />
+        I thought I would just dump all the files in one location and images in
+        one folder and here the site is ready. No that is not how it works now I
+        find out, every folder adds up to the URL. For example, I am writing
+        about HTML so this is a technology blog post. If I put this file in the
+        folder named Post then my URL would be
+        (https://shaanchopra.net/post/moving-to-html-and-file-arrangement-plan)
+        if move this file to the folder named Technology then it will give out
+        the correct location. So, I am ending up having multiple folders with
+        different categories.
+        <br /><br />
+        Not to forget every folder will also be linked differently inside the
+        blog and category page. To understand this one need to understand the
+        hierarchy level of files and folders on the host. My root according to
+        me is the folder name HTML all the files and folders go inside this
+        directory. Inside this, I have my index.html, contact.html and all other
+        pages that are not blog posts. Then there are the images, categories,
+        assets and individual category folders so, while linking a file which is
+        in the categories folder I need to use ../ at the beginning of the file
+        that needs to be linked is in the individual category level folder.
+        <br /><br />
+        Exactly after the fifth file, everything becomes so jumbled. No wonder
+        CMS like WordPress is so famous no one like to keep doing what is
+        happening on this site. The only way one can survive is to be very clean
+        in the code and keep a structure. Earlier I used to find comments on the
+        backend of a web page and I use to think they are useless, now
+        understand how important they are to the person who coded that web page.
+        <br /><br />
+        I am almost done with the basic structure of the site, after this, I
+        will be looking to automate some of the functions and add some useful
+        scripts.
+      </p>
+
+      <!---------------------------------- Post Ends Here -------------------------------->
+      <div class="share-block">
+        <table class="share-block-position">
+          <tr>
+            <td>
+              <p>Share this:</p>
+            </td>
+            <td>
+              <a class="twitter-share" target="blank" rel="noopener noreferrer"
+                ><img
+                  class="social-share"
+                  src="../assets/images/share-on-twitter.webp"
+                  alt="share-on-twitter"
+              /></a>
+              <a class="facebook-share" target="blank" rel="noopener noreferrer"
+                ><img
+                  class="social-share"
+                  src="../assets/images/share-on-facebook.webp"
+                  alt="share-on-facebook"
+              /></a>
+              <a
+                class="linkedin-share"
+                target="_blank"
+                rel="noopener noreferrer"
+                ><img
+                  class="social-share"
+                  src="../assets/images/share-on-linkedin.webp"
+                  alt="share-on-linkedin"
+                />
+              </a>
+              <a class="reddit-share" target="blank" rel="noopener noreferrer"
+                ><img
+                  class="social-share"
+                  src="../assets/images/share-on-reddit.webp"
+                  alt="share-on-reddit"
+              /></a>
+              <a
+                class="pinterest-share"
+                target="blank"
+                rel="noopener noreferrer"
+                ><img
+                  class="social-share"
+                  src="../assets/images/share-on-pinterest.webp"
+                  alt="share-on-pinterest"
+              /></a>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <!---------------------------------- Social share End Here -------------------------------->
+      <br />
+      <hr />
+      <ul class="site-nav justify-content-center">
+        <li><a class="nav-link" href="https://shaanchopra.net">Home</a></li>
+        <li>
+          <a class="nav-link" href="https://shaanchopra.net/blog.html">Blog</a>
+        </li>
+
+        <li>
+          <a class="nav-link" href="https://shaanchopra.net/privacy-policy.html"
+            >Privacy</a
+          >
+        </li>
+        <li>
+          <a class="nav-link" href="https://shaanchopra.net/contact.html"
+            >Contact</a
+          >
+        </li>
+      </ul>
+      <div class="social-footer">
+        <table>
+          <tr>
+            <td>
+              <a
+                href="https://twitter.com/shaanchopra"
+                target="_blank"
+                rel="nofollow noreferrer noopener"
+                ><img
+                  class="social-links"
+                  src="../assets/images/twitter.webp"
+                  alt="Twitter"
+              /></a>
+            </td>
+            <td>
+              <a
+                href="https://www.linkedin.com/in/shaanchopra"
+                target="_blank"
+                rel="nofollow noreferrer noopener"
+                ><img
+                  class="social-links"
+                  src="../assets/images/linkedin.webp"
+                  alt="LinkedIn"
+              /></a>
+            </td>
+            <td>
+              <a
+                href="https://www.instagram.com/shaanchopra/"
+                target="_blank"
+                rel="nofollow noreferrer noopener"
+                ><img
+                  class="social-links"
+                  src="../assets/images/instagram.webp"
+                  alt="Instagram"
+              /></a>
+            </td>
+            <td>
+              <a
+                href="https://www.facebook.com/shaaninderchopra/"
+                target="_blank"
+                rel="nofollow noreferrer noopener"
+                ><img
+                  class="social-links"
+                  src="../assets/images/facebook.webp"
+                  alt="Facebook"
+              /></a>
+            </td>
+          </tr>
+        </table>
+      </div>
+    </div>
+    <script>
+      const link = encodeURI(window.location.href);
+      const twittershare = document.querySelector(".twitter-share");
+      twittershare.href = `https://twitter.com/intent/tweet?url=${link}`;
+      const facebookshare = document.querySelector(".facebook-share");
+      facebookshare.href = `https://www.facebook.com/share.php?u=${link}`;
+      const linkedinshare = document.querySelector(".linkedin-share");
+      linkedinshare.href = `https://www.linkedin.com/shareArticle?mini=true&url=${link}`;
+      const redditshare = document.querySelector(".reddit-share");
+      redditshare.href = `https://reddit.com/submit?url=${link}`;
+      const pinterestshare = document.querySelector(".pinterest-share");
+      pinterestshare.href = `https://pinterest.com/pin/create/button/?url=${link}`;
+    </script>
+  </body>
+</html>

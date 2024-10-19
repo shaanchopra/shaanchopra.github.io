@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="robots"
+      content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
+    />
+    <title>Convert Image to WebP and Vice Versa - ShaanChopra.Net</title>
+    <meta
+      name="description"
+      content="WebP is an image format that compresses images without losing quality. This is how you convert images to WebP format and from WebP format to PNG yourself."
+    />
+    <!-- Open Graph / Facebook / Twitter -->
+    <meta
+      property="og:title"
+      content="Convert Image to WebP and Vice Versa - ShaanChopra.Net"
+    />
+    <meta
+      property="og:description"
+      content="WebP is an image format that compresses images without losing quality. This is how you convert images to WebP format and from WebP format to PNG yourself."
+    />
+    <meta
+      property="og:url"
+      content="https://shaanchopra.net/technology/convert-image-to-webp-and-vice-versa.html"
+    />
+    <meta property="og:type" content="article" />
+    <meta
+      property="article:modified_time"
+      content="2022-12-11T20:55:00+00:00"
+    />
+    <meta
+      property="og:image"
+      content="https://shaanchopra.net/assets/images/social-share-card.png"
+    />
+    <meta name="twitter:card" content="summary_large_image" />
+    <link rel="stylesheet" href="../css/styles.css" />
+    <link rel="icon" href="../assets/images/favicon.ico" />
+    <!-- Google tag (gtag.js) -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-52CDHHXFYW"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "G-52CDHHXFYW");
+    </script>
+  </head>
+  <body>
+    <div class="page">
+      <a class="blog-heading" href="https://shaanchopra.net">Shaan Chopra</a>
+      <h3 class="blog-tagline">Log something crazy, but intresting.</h3>
+      <ul class="site-nav justify-content-end">
+        <li><a class="nav-link" href="https://shaanchopra.net">Home</a></li>
+        <li>
+          <a class="nav-link" href="https://shaanchopra.net/blog.html">Blog</a>
+        </li>
+        <li>
+          <a class="nav-link" href="https://shaanchopra.net/privacy-policy.html"
+            >Privacy</a
+          >
+        </li>
+        <li>
+          <a class="nav-link" href="https://shaanchopra.net/contact.html"
+            >Contact</a
+          >
+        </li>
+      </ul>
+      <hr />
+      <img
+        class="post-images"
+        src="../images/convert-image-to-webp.webp"
+        alt="convert-image-to-webp"
+      />
+      <h1>Convert Image to WebP and Vice Versa</h1>
+      <p>
+        <b>Date: <span class="post-meta">Dec 11, 2022</span></b>
+      </p>
+      <p>
+        WebP is an image format developed by Google and was announced in 2010
+        but the first stable version came out in 2018. That is not very old but
+        recently I see a lot of sites shifting from traditional formats of JPEG,
+        PNG and GIF. The main benefits of the shift are the reduced data size
+        without losing quality and reduced load time of the website.
+      </p>
+      <p>
+        These days our cameras are capable of taking high-resolution pictures
+        which also means the size of a picture is at least 5MB. If you put 10 of
+        these images on the webpage then a total of 50MB of download will happen
+        when you view them. The speed of opening these images will also depend
+        on the bandwidth of your internet connection.
+      </p>
+      <p>
+        If the load time of the page is more than 3 seconds then the user loses
+        interest and leaves the site. That will have an impact on your SEO
+        ranking and search engine do punish sites that have longer load times.
+      </p>
+      <p>
+        To overcome this we resize and optimize the images. A large population
+        uses JPEG and PNG but here you do lose on the quality. There is a better
+        solution which is WebP which is lossless image compression.
+      </p>
+      <p>
+        WebP is open-source and you can convert images to WebP or WebP to JPEG
+        or WebP to PNG on your own computer without compromising your privacy by
+        using online converter tools.
+      </p>
+      <h2>Download WebP repository</h2>
+      <p>
+        First, visit Google's
+        <a
+          href="https://storage.googleapis.com/downloads.webmproject.org/releases/webp/index.html"
+          target="_blank"
+          rel="noreferrer noopener"
+          >official WebP repository</a
+        >
+        and download the latest version, I am using windows so I will download
+        the zip file <i>libwebp-1.2.4-windows-x64.zip</i>. I will unzip the
+        content to my C drive. This folder contains all the required files and
+        you don't need to install any of the applications. Its process is
+        similar to how you install
+        <a
+          href="https://shaanchopra.net/blogging/hugo-static-site-generator.html"
+          target="_blank"
+          rel="noreferrer noopener"
+          >HUGO prebuilt binary</a
+        >.
+      </p>
+      <h2>Add WebP repository to PATH</h2>
+      <p>
+        Open Advance System Settings, there are plenty of ways to do this below
+        are 3 ways to do it.
+      </p>
+      <p>
+        The first way, One press the windows key and type Advance System
+        Settings.
+      </p>
+      <p>
+        The second way, open This PC in the File Explorer and right-click select
+        properties and on the opened window on the left side you will see
+        advance system settings.
+      </p>
+      <p>
+        The third way, press the window key and select settings then
+        System>About on the left-hand side under Related settings you will find
+        Advance system settings.
+      </p>
+      <div style="text-align: center">
+        <img
+          style="width: 95%; max-width: 800px; height: auto"
+          src="../images/setting-path-for-binary-part-1.webp"
+          alt="setting-path-for-binary-part-1"
+        />
+      </div>
+      <p>
+        Once you are in the advance tab select Environment Variables, select
+        Path and press Edit and add the path to the bin folder where the zip
+        file is unzipped.
+      </p>
+      <div style="text-align: center">
+        <img
+          style="width: 95%; max-width: 800px; height: auto"
+          src="../images/setting-path-for-binary-part-2-1.webp"
+          alt="setting-path-for-binary-part-2-1"
+        />
+      </div>
+      <p>Press Ok to confirm</p>
+      <p>
+        By doing this you are allowing the WebP binary to run without being in
+        the same directory.
+      </p>
+      <h2>Check if the PATH is added correctly</h2>
+
+      <p>
+        Press (windows key + R) and type CMD this will open the command line
+        type <b>cwebp -version</b> this should give out the version number that
+        you have installed. If it does you have completed the installation
+        correctly.
+      </p>
+      <h2>Convert Images to WebP</h2>
+      <p>
+        Now that you have done the installation you can convert the images to
+        WebP by typing the command on the command line
+      </p>
+      <p class="code">cwebp -q 80 image.png -o image2.webp</p>
+      <p>
+        The structure of the above command is -q is quality 80 is the
+        compression factor -o is used for naming the output file
+      </p>
+      <p class="code">cwebp [options] input_file -o output_file.webp</p>
+      <p>
+        There are a lot of [options] that you can do and for the complete list
+        visit the
+        <a
+          href="https://developers.google.com/speed/webp/docs/cwebp"
+          target="_blank"
+          rel="noreferrer noopener"
+          >official WebP document</a
+        >.
+      </p>
+      <h2>Convert Webp to PNG</h2>
+      <p>The command for decompressing is below;</p>
+      <p class="code">dwebp image2.webp -o image3.png</p>
+      <p>
+        In the above command, I am decompressing the image and -o is for giving
+        the output name as image3.png.
+      </p>
+      <p>
+        That is how easy it is to convert images from one format to other, if
+        you have followed along you can do the same without compromising your
+        privacy.
+      </p>
+      <h2>Advantages of WebP</h2>
+      <p>
+        <b>Reduction in size</b>: Save more space, I have personally seen a
+        reduction of up to 30% with an 80 compression factor. You can do even
+        more by increasing the level of compression.
+      </p>
+      <p>
+        <b>Reduces site load time</b>: WebP compresses the images without losing
+        on the quality and that results in better load time.
+      </p>
+      <p>
+        <b>Positive effect on SEO</b>: Better load time is a ranking factor so
+        WebP will certainly add up to your ranking points.
+      </p>
+      <p>
+        <b>Consistent image format</b>: Earlier we used jpg for normal images
+        and png for transparent images now just use a single WebP format for
+        both types.
+      </p>
+      <p>
+        <b>No compromise on the quality</b>: There is a difference between png
+        and jpg quality but with WebP, there is no compromise.
+      </p>
+
+      <h2>Disadvantages of WebP</h2>
+      <p>
+        There are only two disadvantages that I have come across there might be
+        more but I am sure these will be covered very soon.
+      </p>
+      <p>
+        <b>Acceptance by browsers</b>: Not all browsers have accepted WebP as a
+        valid image format. Mostly all the major browsers like Chrome, Firefox,
+        Safari, Opera, and Edge do expect but some other small players are yet
+        to follow suit.
+      </p>
+      <p>
+        <b>Social Meta Tag</b>: Twitter has accepted the WebP format but
+        Facebook is yet to accept it as a valid format. So if you are on
+        WordPress and using WebP format as your title image then when you share
+        it on Facebook, the image will not appear. You can tweak this by loading
+        a png or jpg for social cards.
+      </p>
+      <h2>Conclusion</h2>
+      <p>
+        As much as I love open-source, I hate people who take advantage of a
+        person who is not technically sound. WebP is open-source and yet I see
+        sites that are ready to charge you for using their online tool. Why
+        should I pay when I can do the same on my own computer?
+      </p>
+      <p>
+        Then there is another issue of privacy what these online converters are
+        doing with your personal images I don't know, they can scrap all the
+        data or sell it, their wish. So, you are I are better off not sharing
+        and doing it ourselves to keep our data and images safe with us.
+      </p>
+      <p>
+        Lastly use WebP for image optimization, when I checked my site on
+        Gtmetrix and Google Page Speed they always come up saying images can be
+        optimized and this is how you do it.
+      </p>
+
+      <!---------------------------------- Post Ends Here -------------------------------->
+      <div class="share-block">
+        <table class="share-block-position">
+          <tr>
+            <td>
+              <p>Share this:</p>
+            </td>
+            <td>
+              <a class="twitter-share" target="blank" rel="noopener noreferrer"
+                ><img
+                  class="social-share"
+                  src="../assets/images/share-on-twitter.webp"
+                  alt="share-on-twitter"
+              /></a>
+              <a class="facebook-share" target="blank" rel="noopener noreferrer"
+                ><img
+                  class="social-share"
+                  src="../assets/images/share-on-facebook.webp"
+                  alt="share-on-facebook"
+              /></a>
+              <a
+                class="linkedin-share"
+                target="_blank"
+                rel="noopener noreferrer"
+                ><img
+                  class="social-share"
+                  src="../assets/images/share-on-linkedin.webp"
+                  alt="share-on-linkedin"
+                />
+              </a>
+              <a class="reddit-share" target="blank" rel="noopener noreferrer"
+                ><img
+                  class="social-share"
+                  src="../assets/images/share-on-reddit.webp"
+                  alt="share-on-reddit"
+              /></a>
+              <a
+                class="pinterest-share"
+                target="blank"
+                rel="noopener noreferrer"
+                ><img
+                  class="social-share"
+                  src="../assets/images/share-on-pinterest.webp"
+                  alt="share-on-pinterest"
+              /></a>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <!---------------------------------- Social share End Here -------------------------------->
+      <br />
+      <hr />
+      <ul class="site-nav justify-content-center">
+        <li><a class="nav-link" href="https://shaanchopra.net">Home</a></li>
+        <li>
+          <a class="nav-link" href="https://shaanchopra.net/blog.html">Blog</a>
+        </li>
+
+        <li>
+          <a class="nav-link" href="https://shaanchopra.net/privacy-policy.html"
+            >Privacy</a
+          >
+        </li>
+        <li>
+          <a class="nav-link" href="https://shaanchopra.net/contact.html"
+            >Contact</a
+          >
+        </li>
+      </ul>
+      <div class="social-footer">
+        <table>
+          <tr>
+            <td>
+              <a
+                href="https://twitter.com/shaanchopra"
+                target="_blank"
+                rel="nofollow noreferrer noopener"
+                ><img
+                  class="social-links"
+                  src="../assets/images/twitter.webp"
+                  alt="Twitter"
+              /></a>
+            </td>
+            <td>
+              <a
+                href="https://www.linkedin.com/in/shaanchopra"
+                target="_blank"
+                rel="nofollow noreferrer noopener"
+                ><img
+                  class="social-links"
+                  src="../assets/images/linkedin.webp"
+                  alt="LinkedIn"
+              /></a>
+            </td>
+            <td>
+              <a
+                href="https://www.instagram.com/shaanchopra/"
+                target="_blank"
+                rel="nofollow noreferrer noopener"
+                ><img
+                  class="social-links"
+                  src="../assets/images/instagram.webp"
+                  alt="Instagram"
+              /></a>
+            </td>
+            <td>
+              <a
+                href="https://www.facebook.com/shaaninderchopra/"
+                target="_blank"
+                rel="nofollow noreferrer noopener"
+                ><img
+                  class="social-links"
+                  src="../assets/images/facebook.webp"
+                  alt="Facebook"
+              /></a>
+            </td>
+          </tr>
+        </table>
+      </div>
+    </div>
+    <script>
+      const link = encodeURI(window.location.href);
+      const twittershare = document.querySelector(".twitter-share");
+      twittershare.href = `https://twitter.com/intent/tweet?url=${link}`;
+      const facebookshare = document.querySelector(".facebook-share");
+      facebookshare.href = `https://www.facebook.com/share.php?u=${link}`;
+      const linkedinshare = document.querySelector(".linkedin-share");
+      linkedinshare.href = `https://www.linkedin.com/shareArticle?mini=true&url=${link}`;
+      const redditshare = document.querySelector(".reddit-share");
+      redditshare.href = `https://reddit.com/submit?url=${link}`;
+      const pinterestshare = document.querySelector(".pinterest-share");
+      pinterestshare.href = `https://pinterest.com/pin/create/button/?url=${link}`;
+    </script>
+  </body>
+</html>
